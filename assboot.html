@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment table</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .a{
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        color: brown;
+    }
+    .custom-bordered-table.table-bordered {
+        border-color: black; /* Change 'red' to your desired border color */
+    }
+    
+    .custom-bordered-table.table-bordered th,
+    .custom-bordered-table.table-bordered td {
+        border-color: black; /* Change 'red' to your desired border color */
+    }
+    td:hover {
+    background-color:lightskyblue /* Add !important */
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="a mb-4">Types of flowers</h1>
+        <table class="table table-bordered custom-bordered-table mx-auto">
+            <tr>
+                <td>
+                    <p style="color: yellow;">yellow colour flower are very attaractive and beautiful</p>
+                </td>
+                <td>
+                    <img src="C:\Users\JAMSHAN\Desktop\images\yellow.jpg" class="img-rounded" alt="img_yellow" width="140" height="140"> 
+                </td>
+                <td>
+                    <p style="color: yellow;">sunflower,orchid,yellow rose etc</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="C:\Users\JAMSHAN\Desktop\images\pink.jpg" class="img-circle" alt="pink_img" width="230" height="140"> 
+                </td>
+                <td>
+                    <p style="color: palevioletred;">Pink flowers are used as a symbol of love and awareness.</p>
+                </td>
+                <td>
+                    <p style="color: palevioletred;">dalia,hibiscus,pink rose etc</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div class="thumbnail">
+                    <a href="deer.jpg" target="_blank">
+                      <img src="deer.jpg" alt="flower_img" width="230" height="140">
+                      <div class="caption">
+                        <p style="color: red; text-align: center;">Red flowers symbolize passion, love, and desire. eg: rose</p>
+                      </div>
+                    </a>
+                  </div>
+                </td>
+                
+            </tr>
+        </table>
+
+        
+    </div>
+    
+</body>
+</html>
